@@ -1,3 +1,4 @@
+//Configurações do sistema
 let configuracoes = {
     idioma: "Português",
     tema: "Escuro",
