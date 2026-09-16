@@ -1,4 +1,4 @@
-//Cadastro de produto
+//Cadastro de funcionario
 class Funcionario {
     constructor(nome, cargo, setor) {
         this.nome = nome
