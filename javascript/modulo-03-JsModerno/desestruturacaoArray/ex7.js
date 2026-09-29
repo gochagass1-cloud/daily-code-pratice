@@ -10,7 +10,7 @@ const venda = [
     "2026-09-28"
 ];
 
-//Desestruturando o componente de venda para o dashboard somente com os dados necessários
+//Desestruturando o componente de venda do dashboard somente com os dados necessários
 const [, produto, , qtdVendida, valor, , estado] = venda
 
 
