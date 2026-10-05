@@ -30,7 +30,7 @@ let pedidos = [
     }
 ];
 
-
+//Filtrando produtos que podem entrar na separação com pagamento aprovado e status processando.
 let pedidosSeparacao = pedidos.filter((pedido) => {
     return pedido.pagamento === "Aprovado" && pedido.status === "Processando"
 })
