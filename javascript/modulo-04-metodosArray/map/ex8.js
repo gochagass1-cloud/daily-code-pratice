@@ -24,7 +24,7 @@ let pedidos = [
 
 let atualizacaoDadosPed = pedidos.map((pedido) => {
     return {
-        pedido: pedido.pedido,
+        pedido: pedido.numero,
         cliente: pedido.cliente,
         status: pedido.status
     }
