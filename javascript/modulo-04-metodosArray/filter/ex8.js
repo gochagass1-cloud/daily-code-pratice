@@ -6,6 +6,8 @@ let usuarios = [
     { id: 4, nome: "Lucas", perfil: "Usuário", status: "Inativo" }
 ];
 
+
+//Filtrando usuários inativos no sistema
 let usuariosInativos = usuarios.filter((usuario) => {
     return usuario.status === "Inativo";
 })
