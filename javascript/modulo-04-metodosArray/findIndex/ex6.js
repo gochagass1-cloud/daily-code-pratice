@@ -26,7 +26,14 @@ let chamados = [
 
 //Localizando chamado que atende as duas condições para intervir.
 let intervencaoChamado = chamados.findIndex((chamado) => {
-    return chamado.prioridade === "Alta" && chamado.status === "Aberto"
+    return chamado.prioridade === "Alta" && chamado.status !== "Resolvido"
 })
 
-console.log(intervencaoChamado);
+if (intervencaoChamado) {
+    console.log("Chamado que exige intervenção:");
+    console.log(chamados[intervencaoChamado]);
+    console.log(`Posição: ${intervencaoChamado}`);
+}
+else {
+    console.log("Nenhum chamado exige intervenção imediata.");
+}
