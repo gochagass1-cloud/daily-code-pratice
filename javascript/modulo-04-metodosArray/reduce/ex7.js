@@ -20,4 +20,4 @@ let saldoFinal = movimentacoes.reduce(function (acumulador, movimentacao) {
     return acumulador;
 }, saldoInicial);
 
-console.log("Saldo final: R$", saldoFinal);
+console.log(`Saldo final: R$${saldoFinal}`);
