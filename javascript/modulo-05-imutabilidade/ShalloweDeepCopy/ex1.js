@@ -13,13 +13,13 @@ let configuracaoPadrao = {
 
 let novoCliente = "Empresa Alfa";
 
-let configuracaoAtualizada = structuredClone(configuracaoPadrao)
+let configuracaoCliente = structuredClone(configuracaoPadrao)
 
-configuracaoAtualizada.tema = "escuro"
-configuracaoAtualizada.notificacoes.email = false
-configuracaoAtualizada.painel.widgets.push("financeiro")
+configuracaoCliente.tema = "escuro"
+configuracaoCliente.notificacoes.email = false
+configuracaoCliente.painel.widgets.push("financeiro")
 
 
 console.log("Novo cliente:", novoCliente);
 console.log("Configuração padrão:", configuracaoPadrao);
-console.log("Configuração atualizada:", configuracaoAtualizada);
+console.log("Configuração atualizada:", configuracaoCliente);
